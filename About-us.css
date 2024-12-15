@@ -265,13 +265,17 @@ header nav a {
 
 
 /* REsponsive starts */
-@media( max-width:932px){
+@media( max-width:768px){
+    header{
+        position: relative;
+    }
    nav a{
         display: none;
     }
     .heading{
         margin: 15px 0 -35px 0;
       height: 120px;
+     
     }
     
     .logo-image{
@@ -292,12 +296,12 @@ header nav a {
         padding-left: 0;
     }
     .paragraph{
-        margin-top: -60px;
+      
     }
     .find{
         width: 355px;
         font-size: 20px;
-        margin-top: -80px;
+        
     }
     .at{
         width: 329px;
@@ -306,8 +310,8 @@ header nav a {
         font-weight: 500;
     }
     .page-two-container{
-        margin-top: -450px;
-        height: 80%;
+       
+        
     }
     .bg-banner{
         width: 60%;
@@ -316,32 +320,34 @@ header nav a {
         font-size: 20px;
     }
     .what p{
-        width: 323px;
-    font-size: 15px;    
-    text-transform: capitalize;}
+            width: 323px;
+        font-size: 15px;    
+        text-transform: capitalize;
+    }
     .bg-banner :nth-child(1) {
         display: none;
     }
     .bg-banner :nth-child(2) {
+       
         display:block;
         width: 170%;
     }
     .third-page-container{
         display: block;
-        margin-top: -40px;
+        
         position: relative;
-        height: 70vh;
+       
     }
     .left h2{
         position: absolute;
-        top: 40px;      
+             
         width: 195px;
         left: 25px;
         font-size: 20px;
     }
     .left p{
         position: absolute;
-        top: 120px;
+        top: 85px;
         left: 25px;
         width: 332px;
         height: 301px;
@@ -349,12 +355,12 @@ header nav a {
         font-weight: 500;
     }
     .right img{
-        margin-top: 85px;
+       
         filter: opacity(0.4);
     }
     .fourth-page-container{
-    
-      display: block;
+        height: max-content;
+        display: block;
         z-index: 11111;
         
     }
