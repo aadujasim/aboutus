@@ -334,20 +334,20 @@ header nav a {
     }
     .third-page-container{
         display: block;
-        
+        height: 80%;
         position: relative;
        
     }
     .left h2{
         position: absolute;
-             
+        top: 25px;    
         width: 195px;
         left: 25px;
         font-size: 20px;
     }
     .left p{
         position: absolute;
-        top: 85px;
+        top: 105px;
         left: 25px;
         width: 332px;
         height: 301px;
@@ -361,10 +361,11 @@ header nav a {
     .fourth-page-container{
         height: max-content;
         display: block;
-        z-index: 11111;
+        
         
     }
     .f-left img{
+        margin-top: 62px;
         margin-left:50px;
         width: 80%;
         
